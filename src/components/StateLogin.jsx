@@ -51,7 +51,7 @@ export default function Login() {
         <div className="control no-margin">
           <label htmlFor="password">Password</label>
           <input
-            id="password[login"
+            id="password-login"
             type="password"
             name="password"
             onChange={(event) => handleInputChange(event)}
